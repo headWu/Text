@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "AFNetworking.h"
+#import "YYModel.h"
+
+
+
+#define KBASE @"http://api.avatardata.cn/ActNews/Query"
 
 @interface ViewController ()
 
@@ -16,12 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
